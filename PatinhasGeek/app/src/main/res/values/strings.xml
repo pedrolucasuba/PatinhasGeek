@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Patinhas Geek</string>
+    <string name="menu_home">Início</string>
+    <string name="menu_gps">Localização</string>
+    <string name="menu_mtg">Friday Night</string>
+    <string name="menu_site">site</string>
+    <string name="menu_insta">Instagram</string>
+    <string name="menu_whats">WhatsApp</string>
+    <string name="menu_about">Sobre</string>
+    <string name="menu_social">Social</string>
+</resources>

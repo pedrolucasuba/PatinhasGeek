@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/menu_home"
+            android:icon="@drawable/home_button"/>
+
+        <item
+            android:id="@+id/nav_mtg"
+            android:title="@string/menu_mtg"
+            android:icon="@drawable/mtg_button"/>
+
+    </group>
+<item android:title="@string/menu_social">
+   <menu>
+
+    <item
+        android:id="@+id/nav_site"
+        android:title="@string/menu_site"
+        android:icon="@drawable/site_button"  />
+
+       <item
+           android:id="@+id/nav_instagram"
+           android:title="@string/menu_insta"
+           android:icon="@drawable/instagram_button"  />
+
+       <item
+           android:id="@+id/nav_whatsapp"
+           android:title="@string/menu_whats"
+           android:icon="@drawable/whatsapp_button"  />
+
+       <item
+           android:id="@+id/nav_gps"
+           android:title="@string/menu_gps"
+           android:icon="@drawable/gps_button"  />
+
+       <item
+           android:id="@+id/nav_about"
+           android:title="@string/menu_about"
+           android:icon="@drawable/about_button"  />
+
+   </menu>
+
+</item>
+
+</menu>
